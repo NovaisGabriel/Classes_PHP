@@ -5,7 +5,7 @@ class Sqlutf8 extends PDO{
 
   public function __construct(){
 
-    $this->conn = new PDO("mysql:dbname=BaseBrasil;host=localhost","root","keeganca17");
+    $this->conn = new PDO("mysql:dbname=;host=localhost","","");
     $this->conn->exec("set names utf8");
 
   }
