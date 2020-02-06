@@ -14,9 +14,15 @@
 </ul>
 
 <h2>Forma de Implementação</h2>
-<p>Para dar um exemplo de como funciona a chamada de um simples <i>select</i> da classe em FunctionsSqlutf8.php
-basta fazer o seguinte: (1) Colocar os aqruivos em uma mesma pasta;(2) Configurar os valores de conexão da base de dados em 
-PDO no script Sqlutf8.php (3) Depois para chamada no corpo do php fazer algo como $selecao = FunctionsSqlutf8::select_normal("Colunas","Tabela");
+<p>Para dar um exemplo de como funciona a chamada de um simples <i>select</i> da classe em FunctionsSqlutf8.php basta fazer o seguinte: 
+<ul>
+    <li>(1) Colocar os aqruivos em uma mesma pasta;</li>
+    <li>(2) Configurar os valores de conexão da base de dados em PDO no script Sqlutf8.php</li>
+    <li>(3) Depois para chamada no corpo do php fazer algo como:</li>
+        <li><b>$selecao = FunctionsSqlutf8::select_normal("Colunas","Tabela")</b>;</li>
+    </li>
+    </ul>
+  
 </p>
 
 <p>Com isso será obtido um array em php com a consulta desejada.</p>
