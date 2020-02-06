@@ -19,7 +19,7 @@
     <li>(1) Colocar os aqruivos em uma mesma pasta;</li>
     <li>(2) Configurar os valores de conexão da base de dados em PDO no script Sqlutf8.php</li>
     <li>(3) Depois para chamada no corpo do php fazer algo como:</li>
-        <li><b>$selecao = FunctionsSqlutf8::select_normal("Colunas","Tabela")</b>;</li>
+        <p><b>$selecao = FunctionsSqlutf8::select_normal("Colunas","Tabela")</b>;</p>
     </li>
     </ul>
   
