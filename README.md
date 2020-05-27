@@ -16,7 +16,7 @@
 <h2>Forma de Implementação</h2>
 <p>Para dar um exemplo de como funciona a chamada de um simples <i>select</i> da classe em FunctionsSqlutf8.php basta fazer o seguinte: 
 <ul>
-    <li>(1) Colocar os aqruivos em uma mesma pasta;</li>
+    <li>(1) Colocar os arquivos em uma mesma pasta;</li>
     <li>(2) Configurar os valores de conexão da base de dados em PDO no script Sqlutf8.php</li>
     <li>(3) Depois para chamada no corpo do php fazer algo como:</li>
         <p><b>$selecao = FunctionsSqlutf8::select_normal("Colunas","Tabela")</b>;</p>
